@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* .font-outfit {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300, 400, 500, 700;
+}
+
+.font-parkinsans {
+  font-family: "Parkinsans", sans-serif;
+  font-weight: 500;
+} */
+
+.font-bold {
+  font-family: var(--font-outfit), sans-serif;
+  font-weight: 700;
+}
+
+.font-regular {
+  font-family: var(--font-outfit), sans-serif;
+  font-weight: 400;
+}
+
+.font-light {
+  font-family: var(--font-outfit), sans-serif;
+  font-weight: 300;
+}
+
+.font-parkinsans {
+  font-family: var(--font-parkinsans), sans-serif;
+  font-weight: 500;
+}
+
+.bg-primary {
+  background-color: #272088;
+}
+
+.bg-light {
+  background-color: #f0efff;
+}
+
+.text-primary {
+  text: #272088;
+}
+
+.text-secondary {
+  text: #2a248566;
+}
+
+.main-container {
+  height: 100vh;
+  border-radius: 16px;
+}

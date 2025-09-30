@@ -37,7 +37,7 @@ import React from "react";
 
 export default function Docert() {
   return (
-    <section className="flex flex-col justify-center items-center my-10 md:my-16 lg:my-20 px-4">
+    <section className="flex flex-col justify-center items-center my-10 md:my-16 lg:my-20 px-4 leading-0">
       <div className="text-center font-regular mt-6 max-w-[961px]">
         <p className="text-[20px] sm:text-[24px] md:text-[28px] lg:text-[40px] leading-relaxed">
           DoYourCert is built on the&nbsp;

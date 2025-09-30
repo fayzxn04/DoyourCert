@@ -19,7 +19,7 @@ export default function Cards() {
             <h2 className="text-[36px] md:text-[48px] lg:text-[54px] font-regular text-gray-600">
               {item.value}
             </h2>
-            <p className="text-gray-600 mt-2 text-[16px] md:text-[18px]">
+            <p className="text-gray-600 mt-2 text-[16px] md:text-[18px] max-sm:text-[12px]">
               {item.label}
             </p>
 
@@ -36,5 +36,47 @@ export default function Cards() {
         ))}
       </div>
     </section>
+    // <section className="bg-light flex flex-col justify-center items-center gap-2.5 px-18 py-5 rounded-[20px] w-[1408px] mx-auto">
+    //   <div className="flex justify-between items-center self-stretch ">
+    //     <div className="flex flex-col gap-[7px] w-[180px] items-start">
+    //       <p className="font-regular text-[54px] text-[#272088] leading-none">
+    //         100+
+    //       </p>
+    //       <p className="font-light text-[18px] leading-none text-[#272088]">
+    //         Number of vendors
+    //       </p>
+    //     </div>
+    //     <p className="bg-[#D8D9D9] w-[1px] h-[80px]"></p>
+
+    //     <div className="flex flex-col gap-[7px] w-[180px] items-start">
+    //       <p className="font-regular text-[54px] text-black leading-none">
+    //         200+
+    //       </p>
+    //       <p className="font-light text-[18px] leading-none text-[#6E6E6E]">
+    //         Number of Exams
+    //       </p>
+    //     </div>
+    //     <p className="bg-[#D8D9D9] w-[1px] h-[80px]"></p>
+
+    //     <div className="flex flex-col gap-[7px] w-[180px] items-start">
+    //       <p className="font-regular text-[54px] text-black leading-none">
+    //         200+
+    //       </p>
+    //       <p className="font-light text-[18px] leading-none text-[#6E6E6E]">
+    //         Number of Certifications
+    //       </p>
+    //     </div>
+    //     <p className="bg-[#D8D9D9] w-[1px] h-[80px]"></p>
+
+    //     <div className="flex flex-col gap-[7px] w-[180px] items-start">
+    //       <p className="font-regular text-[54px] text-black leading-none">
+    //         2000+
+    //       </p>
+    //       <p className="font-light text-[18px] leading-none text-[#6E6E6E]">
+    //         IT Professionals Certified Successfully
+    //       </p>
+    //     </div>
+    //   </div>
+    // </section>
   );
 }
